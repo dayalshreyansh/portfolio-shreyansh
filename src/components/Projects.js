@@ -44,7 +44,7 @@ export default function Projects() {
                         <div class="card-body" style={{color:"#e0e0e0"}}>
                             <h5 class="card-title">{element.title}</h5>
                             <p class="card-text">{element.description}</p>
-                            <a href={element.url} target='_blank' class="btn btn-custom btn-primary">Visit Project</a>
+                            <a href={element.url} target='_blank' class="btn btn-custom btn-primary" rel="noopener noreferrer">Visit Project</a>
                         </div>
                     </div>
                     </div>

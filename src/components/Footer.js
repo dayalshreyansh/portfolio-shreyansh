@@ -30,6 +30,7 @@ function Footer() {
               class="btn btn-outline-light btn-floating m-1 mx-3"
               href="#!"
               role="button"
+              rel="noopener noreferrer"
             >
               <i class="fab fa-twitter"></i>
             </a>
@@ -38,6 +39,7 @@ function Footer() {
               class="btn btn-outline-light btn-floating m-1 mx-3"
               href="https://mail.google.com/mail/?view=cm&fs=1&to=shreyansh.dayal0604@gmail.com&su=Hello&body=Message%20goes%20here" target="_blank"
               role="button"
+              rel="noopener noreferrer"
             >
               <i class="fab fa-google"></i>
             </a>
@@ -46,6 +48,7 @@ function Footer() {
               class="btn btn-outline-light btn-floating m-1 mx-3"
               href="#!"
               role="button"
+              rel="noopener noreferrer"
             >
               <i class="fab fa-instagram"></i>
             </a>
@@ -55,6 +58,7 @@ function Footer() {
               href="https://www.linkedin.com/in/shreyansh-dayal-07323031b/"
               target="_blank"
               role="button"
+              rel="noopener noreferrer"
             >
               <i class="fab fa-linkedin-in"></i>
             </a>
@@ -64,6 +68,7 @@ function Footer() {
               href="https://github.com/dayalshreyansh"
               target="_blank"
               role="button"
+              rel="noopener noreferrer"
             >
               <i class="fab fa-github"></i>
             </a>
