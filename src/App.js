@@ -4,13 +4,12 @@ import Navbar from './components/Navbar.js';
 import Intro from './components/Intro.js';
 import Projects from './components/Projects.js';
 import Skills from './components/Skills.js';
-import Achivements from './components/Achivements.js';
 import Divider from './components/Divider.js';
 import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div style={{backgroundColor:"#1e3646"}}>
+    <div id="home" style={{backgroundColor:"#1e3646"}}>
       <Navbar/>
       <Intro/>
       <Divider/>
