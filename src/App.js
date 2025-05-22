@@ -10,20 +10,19 @@ import Footer from './components/Footer.js';
 
 function App() {
   return (
-    <div style={{backgroundColor:"#212529"}}>
+    <div style={{backgroundColor:"#1e3646"}}>
       <Navbar/>
       <Intro/>
       <Divider/>
-      <div id='skill' style={{height:"5vh"}}></div>
+      <div id='skill'></div>
       <Skills/>
       <Divider/>
-      <div id='achivements' style={{height:"5vh"}}></div>
-      <Achivements/>
-      <Divider/>
-      <div id='projects'style={{height:"5vh"}}> </div>
-      <Projects/> 
-      <Divider/>
-      <div id='footer'style={{height:"5vh"}}></div>
+      <div id='achivements'></div>
+      {/* <Achivements/> */}
+      {/* <Divider/> */}
+      <div id='projects'> </div>
+      <Projects/>
+      <div id='footer'></div>
       <Footer/> 
     </div>
   );

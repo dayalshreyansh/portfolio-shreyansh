@@ -33,18 +33,18 @@ export default function Projects() {
         }
     ];
   return (
-    <div>
-      <div className="container text-center my-5" style={{minHeight:"100vh",color:"#e0e0e0", margin:"auto"}}><h3>Projets</h3>
-        <div class="row my-5">
+    <div style={{background:'linear-gradient(to bottom, #0f2027, #203a43, #244659)',}}>
+      <div className="container text-center " style={{paddingTop:'10vh',minHeight:"100vh",color:"#e0e0e0", margin:"auto",}}><h3>Projects</h3>
+        <div class="row ">
             {projects.map((element)=>{
                 return (
-                    <div class="col my-2" >
-                    <div class="card" style={{width: "18rem", maxHeight: "400px", overflow: "hidden",backgroundColor:"#343a40"}}>
+                    <div class="col my-5" >
+                    <div class="card" style={{width: "18rem", maxHeight: "400px", overflow: "hidden",background:"rgba(255, 255, 255, 0.05)",backdropFilter:'blur(8px)',border:'1px solid rgba(255, 255, 255, 0.1)'}}>
                         <img src={element.img} alt="IMG" style={{ width: "100%",height:"200px",margin:"auto" }}/>
                         <div class="card-body" style={{color:"#e0e0e0"}}>
                             <h5 class="card-title">{element.title}</h5>
                             <p class="card-text">{element.description}</p>
-                            <a href={element.url} target='_blank' class="btn btn-primary">Visit Project</a>
+                            <a href={element.url} target='_blank' class="btn btn-custom btn-primary">Visit Project</a>
                         </div>
                     </div>
                     </div>

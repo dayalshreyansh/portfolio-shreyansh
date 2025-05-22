@@ -49,15 +49,15 @@ export default function Skills() {
     }
   ];
   return (
-    <div>
-      <div className="container text-center my-5 " style={{color:"#e0e0e0"}}>
+    <div style={{paddingTop:'10vh',background:'linear-gradient(to bottom, #244659, #203a43, #0f2027)'}}>
+      <div className="container text-center  " style={{color:"#e0e0e0"}}>
         <h3>Skills</h3>
         <div class="container text-center" >
             <div class="row">
               {skills.map((element)=>{
                 return(
                   <div class="col-4 my-5">
-                <div class="card" style={{width: "18rem",backgroundColor:"#212529",border:"none"}} >
+                <div class="card" style={{width: "18rem",background:"none",border:"none"}} >
                   <img className='my-2' src={element.img} alt="" style={{width:"50%",margin:"auto",height:"10vh"}}/>
                 <div class="card-body" style={{color:"#e0e0e0"}}>
                     <h5 class="card-title">{element.skill}</h5>

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import resume from '../assets/resume.pdf'
 export default function Navbar() {
   return (
     <div>
-        <nav className="navbar fixed-top navbar-expand-lg navbar-dark navbar-beige" style={{backgroundColor:"#232220"}}>
+        <nav className="navbar fixed-top navbar-expand-lg navbar-dark navbar-beige frosted-glass" style={{background: 'linear-gradient(90deg, #0f2027, #203a43, #2c5364)'}}>
         <div className="container-fluid " >
             <a className="navbar-brand" href="#">Shreyansh Dayal</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +24,7 @@ export default function Navbar() {
                     <li><a className="dropdown-item" href="#achivements">Achivements</a></li>
 
                     <li><hr className="dropdown-divider"/></li>
-                    <li><a className="dropdown-item" href="#" >Download CV</a></li>
+                    <li><a className="dropdown-item" href={resume} download>Download CV</a></li>
                 </ul>
                 </li>
             </ul>
